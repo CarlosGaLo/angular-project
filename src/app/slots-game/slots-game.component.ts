@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./slots-game.component.scss']
 })
 export class SlotsGameComponent {
+  card: string;
+  order: number;
 
+  constructor() {
+    this.card = 'Sota de tréboles';
+    this.order = 0;
+  }
 }
